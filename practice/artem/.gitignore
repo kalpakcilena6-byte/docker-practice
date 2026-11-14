@@ -1,0 +1,19 @@
+# виртуальные окружения Python: библиотеки ставятся заново из requirements.txt
+.venv/
+venv/
+
+# кэш Python
+__pycache__/
+*.pyc
+
+# настройки PyCharm
+.idea/
+
+# пароли хранятся только локально, в репозитории лежит .env.example
+.env
+
+# служебные файлы macOS
+.DS_Store
+
+# тестовые файлы для загрузки обложек
+test-files/
